@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: jekyll
-permalink: jekyll/
+permalink: tag/jekyll/
 ---

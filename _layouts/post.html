@@ -4,7 +4,7 @@ layout: default
 
 {% assign post = page %}
 {% if post.tags.size > 0 %}
-    {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+    {% capture tags_content %}{% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %} {% endcapture %}
     {% for post_tag in post.tags %}
         {% for data_tag in site.data.tags %}
             {% if data_tag.slug == post_tag %}
@@ -30,8 +30,8 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%m/%d/%Y" }}</span>
-                    <p id="post-meta">{{ tags_content }}</p>
+                    <span class="meta">Posté par {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} le {{ page.date | date: "%m/%d/%Y" }}</span>
+                    <p class="meta">{{ tags_content }}</p>
                 </div>
             </div>
         </div>
