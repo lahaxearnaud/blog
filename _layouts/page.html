@@ -17,10 +17,24 @@ layout: default
     </div>
 </header>
 
-   <div id="search-demo-container">
-      <input type="text" id="search-input" placeholder="search...">
-      <ul id="results-container"></ul>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="input-group custom-search-form">
+                <input type="text" class="form-control">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div><!-- /input-group -->
+        </div>
+        <div class="col-lg-12">
+            <ul id="results-container" class="list-group"></ul>
+        </div>
     </div>
+</div>
 
 <!-- Main Content -->
 <div class="container">
