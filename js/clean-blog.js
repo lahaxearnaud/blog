@@ -74,6 +74,12 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
+
+    SimpleJekyllSearch.init({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      dataSource: '/search.json',
+    });
 });
 
 

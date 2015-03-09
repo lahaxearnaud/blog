@@ -1,17 +1,17 @@
 # Site settings
-title: Clean Blog
+title: Blog technique
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: lahaxe.arnaud@gmail.com
+description: ""
 baseurl: ""
 url: "http://test.lahaxe.fr"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: lahaxe_arnaud
+github_username:  lahaxearnaud
+facebook_username:  ''
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 7
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
