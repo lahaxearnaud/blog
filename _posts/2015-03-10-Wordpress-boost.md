@@ -4,7 +4,7 @@ title:      "Booster wordpress"
 subtitle:   "Optimiser wordpress afin de diminuer drastiquement le temps de réponse"
 date:       2015-03-10 12:00:00
 author:     "Arnaud LAHAXE"
-header-img: "img/22.jpg"
+header-img: "img/header/22.jpg"
 tags: [wordpress]
 ---
 
