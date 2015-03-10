@@ -4,21 +4,21 @@ title:      "Booster wordpress"
 subtitle:   "Optimiser wordpress afin de diminuer drastiquement le temps de réponse"
 date:       2015-03-10 12:00:00
 author:     "Arnaud LAHAXE"
-headerassets-img: "assets/img/header/22.jpg"
+header-img: "/assets/img/header/22.jpg"
 tags: [wordpress]
 ---
 
 Diminuer le temps de réponse de son site devrait être la préoccupation de tout webmaster, afin d'améliorer au maximum l'expérience utilisateur mais aussi pour être mieux référencé sur Google. Nous allons voir dans cet article comment optimiser Wordpress pour obtenir un temps de réponse minimal.
 
 
-[![logo-v-rgb](assets/img/wordpress/logo.png)](assets/img/wordpress/logo.png)
+[![logo-v-rgb](/assets/img/wordpress/logo.png)](/assets/img/wordpress/logo.png)
 
 
 Il existe une kyrielle de plugins Wordpress qui permettent de réduire le temps de réponse de Wordpress. Un des plus connus est [w3 Total Cache](http://wordpress.org/plugins/w3-total-cache/) car il possède énormément de fonctionnalités.
 
 Mais après l'avoir installé, je me suis rendu compte que Wordpress consommait quasi 100% de tous les coeurs de mon serveur pour afficher une page. C'est un problème qui est assez fréquent avec ce plugin. C'est pourquoi j'ai cherché des solutions alternatives.
 
-[![htop](assets/img/wordpress/boost/htop.png)](assets/img/wordpress/boost/htop.png)
+[![htop](/assets/img/wordpress/boost/htop.png)](/assets/img/wordpress/boost/htop.png)
 
 
 ## Coté Wordpress
@@ -36,7 +36,7 @@ La seconde fonctionnalité intéressante du plugin est le pré-chargement des pa
 
 [Wp Minify](http://wordpress.org/plugins/wp-minify/) est un plugin qui permet la compression et la concaténation des fichiers JS et CSS. Selon la qualité de vos fichiers (en terme de code) il n'est peut être pas possible de les compresser. Dans ce cas la il faut aller dans option avancé et désactiver la minification.
 
-La concaténation des assets, même non minifiés, permet de diminuer le nombre de requêtes et donc le temps de réponse.
+La concaténation des /assets, même non minifiés, permet de diminuer le nombre de requêtes et donc le temps de réponse.
 
 ### WP Optimize
 
@@ -93,7 +93,7 @@ Contrairement au [mod_evasive](http://www.tux-planet.fr/mod_evasive-un-module-an
 
 Voici le résultat de [Yslow](https://addons.mozilla.org/fr/firefox/addon/yslow/) sur la page d'accueil du blog une fois toutes les optimisations mises en place.
 
-[![Yslow](assets/img/wordpress/boost/grade.png)](assets/img/wordpress/boost/grade.png)
+[![Yslow](/assets/img/wordpress/boost/grade.png)](/assets/img/wordpress/boost/grade.png)
 
 
 
@@ -101,8 +101,8 @@ Et voici le temps de chargement de la vue réseau de Firebug pour le premier et 
 
 **Premier chargement**
 
-[![Avant](assets/img/wordpress/boost/after.png)](assets/img/wordpress/boost/after.png)
+[![Avant](/assets/img/wordpress/boost/after.png)](/assets/img/wordpress/boost/after.png)
 
 **Second chargement**
 
-[![Après](assets/img/wordpress/boost/before.png)](assets/img/wordpress/boost/before.png)
+[![Après](/assets/img/wordpress/boost/before.png)](/assets/img/wordpress/boost/before.png)
