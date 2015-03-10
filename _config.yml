@@ -1,6 +1,6 @@
 # Site settings
-title: Blog technique
-header-img: assets/img/header/home-bg.jpg
+title: "Blog technique"
+header-img: "assets/img/header/home-bg.jpg"
 email: lahaxe.arnaud@gmail.com
 description: ""
 baseurl: ""
