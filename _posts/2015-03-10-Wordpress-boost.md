@@ -4,21 +4,21 @@ title:      "Booster wordpress"
 subtitle:   "Optimiser wordpress afin de diminuer drastiquement le temps de réponse"
 date:       2015-03-10 12:00:00
 author:     "Arnaud LAHAXE"
-header-img: "img/header/22.jpg"
+headerassets-img: "assets/img/header/22.jpg"
 tags: [wordpress]
 ---
 
 Diminuer le temps de réponse de son site devrait être la préoccupation de tout webmaster, afin d'améliorer au maximum l'expérience utilisateur mais aussi pour être mieux référencé sur Google. Nous allons voir dans cet article comment optimiser Wordpress pour obtenir un temps de réponse minimal.
 
 
-[![logo-v-rgb](/img/wordpress/logo.png)](/img/wordpress/logo.png)
+[![logo-v-rgb](assets/img/wordpress/logo.png)](assets/img/wordpress/logo.png)
 
 
 Il existe une kyrielle de plugins Wordpress qui permettent de réduire le temps de réponse de Wordpress. Un des plus connus est [w3 Total Cache](http://wordpress.org/plugins/w3-total-cache/) car il possède énormément de fonctionnalités.
 
 Mais après l'avoir installé, je me suis rendu compte que Wordpress consommait quasi 100% de tous les coeurs de mon serveur pour afficher une page. C'est un problème qui est assez fréquent avec ce plugin. C'est pourquoi j'ai cherché des solutions alternatives.
 
-[![htop](/img/wordpress/boost/htop.png)](/img/wordpress/boost/htop.png)
+[![htop](assets/img/wordpress/boost/htop.png)](assets/img/wordpress/boost/htop.png)
 
 
 ## Coté Wordpress
@@ -93,7 +93,7 @@ Contrairement au [mod_evasive](http://www.tux-planet.fr/mod_evasive-un-module-an
 
 Voici le résultat de [Yslow](https://addons.mozilla.org/fr/firefox/addon/yslow/) sur la page d'accueil du blog une fois toutes les optimisations mises en place.
 
-[![Yslow](/img/wordpress/boost/grade.png)](/img/wordpress/boost/grade.png)
+[![Yslow](assets/img/wordpress/boost/grade.png)](assets/img/wordpress/boost/grade.png)
 
 
 
@@ -101,8 +101,8 @@ Et voici le temps de chargement de la vue réseau de Firebug pour le premier et 
 
 **Premier chargement**
 
-[![Avant](/img/wordpress/boost/after.png)](/img/wordpress/boost/after.png)
+[![Avant](assets/img/wordpress/boost/after.png)](assets/img/wordpress/boost/after.png)
 
 **Second chargement**
 
-[![Après](/img/wordpress/boost/before.png)](/img/wordpress/boost/before.png)
+[![Après](assets/img/wordpress/boost/before.png)](assets/img/wordpress/boost/before.png)

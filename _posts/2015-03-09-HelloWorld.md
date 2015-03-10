@@ -4,7 +4,7 @@ title:      "Hello Worlds"
 subtitle:   "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
 date:       2014-06-10 12:00:00
 author:     "Arnaud LAHAXE"
-header-img: "img/01.jpg"
+header-img: "assets/img/header/01.jpg"
 tags: [github-pages, jekyll]
 ---
 
