@@ -101,8 +101,8 @@ Et voici le temps de chargement de la vue réseau de Firebug pour le premier et 
 
 **Premier chargement**
 
-[![Avant](/assets/img/wordpress/boost/after.png)](/assets/img/wordpress/boost/after.png)
+[![Avant](/assets/img/wordpress/boost/before.png)](/assets/img/wordpress/boost/before.png)
 
 **Second chargement**
 
-[![Après](/assets/img/wordpress/boost/before.png)](/assets/img/wordpress/boost/before.png)
+[![Après](/assets/img/wordpress/boost/after.png)](/assets/img/wordpress/boost/after.png)
