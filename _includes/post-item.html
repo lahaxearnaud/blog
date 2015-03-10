@@ -23,7 +23,12 @@
 
     <div class="panel-footer">
     	{% for tag in post.tags  %}
-        	<span class="label label-default">{{ tag }}</span>
+    		{% for data_tag in site.data.tags %}
+	            {% if data_tag.slug == tag %}
+	                {% assign tag_complete = data_tag %}
+	            {% endif %}
+	        {% endfor %}
+        	<a class="label label-default" href="/tag/{{ tag_complete.slug }}/">{{ tag_complete.name }}</a>
         {% endfor %}
     </div>
 </div>
