@@ -4,3 +4,5 @@
   name: Jekyll
 - slug: debian
   name: Debian
+- slug: wordpress
+  name: Wordpress
