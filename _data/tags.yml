@@ -2,3 +2,5 @@
   name: GitHub Pages
 - slug: jekyll
   name: Jekyll
+- slug: debian
+  name: Debian
