@@ -2,3 +2,7 @@
   name: Debian
 - slug: wordpress
   name: Wordpress
+- slug: ionic
+  name: Ionic
+- slug: protip
+  name: Protip
