@@ -8,6 +8,10 @@ header-img: "/assets/img/header/60.jpg"
 tags: [ionic, protip]
 ---
 
+## Besoin
+
+## Dépendances
+
 ## Code
 
 {% highlight javascript %}
@@ -77,11 +81,11 @@ angular.module('geolocalisation', ['ngCordova'])
     .factory('geoLocation', function ($localStorage) {
         return {
             setGeolocation: function (latitude, longitude) {
-                var _position = {
+                var position = {
                     latitude: latitude,
                     longitude: longitude
                 }
-                $localStorage.setObject('geoLocation', _position)
+                $localStorage.setObject('geoLocation', position)
             },
             getGeolocation: function () {
                 return glocation = {
