@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
@@ -9,26 +10,16 @@ layout: default
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <hr class="small">
-                    <span class="subheading"><i class="fa fa-tags"></i> {{ page.tag | capitalize }}</span>
+                    <span class="subheading">{{ page.description }}</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
+
 {% include search.html %}
 
 <!-- Main Content -->
-<div class="container">
-	<div id="pinBoot">
+{{ content }}
 
-		    {% if site.tags[page.tag] %}
-				{% for post in site.tags[page.tag]  %}
-					{% include post-item.html %}
-				{% endfor %}
-
-		    {% else %}
-		        <p>Pas d'article pour ce tag.</p>
-		    {% endif %}
-	</div>
-</div>

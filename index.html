@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: list
 description: "A Clean Blog Theme by Start Bootstrap"
 ---
-
-{% for post in paginator.posts %}
-    {% include post-item.html %}
-<hr>
-{% endfor %}
-
+<div class="container">
+    <div id="pinBoot">
+    {% for post in paginator.posts %}
+        {% include post-item.html %}
+    {% endfor %}
+    </div>
+</div>
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
 <ul class="pager">

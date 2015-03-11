@@ -54,7 +54,7 @@ module.exports = function(grunt) {
             },
             less: {
                 files: ['assets/less/*.less'],
-                tasks: ['assets/less'],
+                tasks: ['less'],
                 options: {
                     spawn: false,
                 }
