@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      "Ionic geolocalisation"
+title:      "Ionic et la géolocalisation"
 subtitle:   "Utiliser la géolocalisation dans une application ionic"
 date:       2015-03-10 18:00:00
 author:     "Arnaud LAHAXE"
 header-img: "/assets/img/header/compass.jpg"
-tags:       [ionic, protip]
+tags:       [ionic]
 ---
 
 ## Besoin
