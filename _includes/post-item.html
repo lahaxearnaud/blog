@@ -3,13 +3,14 @@
     <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
     <p>{{ post.subtitle }}</p>
     <p>
+    <i class="fa fa-tags"></i>
     {% for tag in post.tags  %}
         {% for data_tag in site.data.tags %}
             {% if data_tag.slug == tag %}
                 {% assign tag_complete = data_tag %}
             {% endif %}
         {% endfor %}
-        <a class="label label-default" href="/tag/{{ tag_complete.slug }}/">{{ tag_complete.name }}</a>
+        <a class="no-style" href="/tag/{{ tag_complete.slug }}/">{{ tag_complete.name }}</a>
     {% endfor %}
     </p>
 </div>
