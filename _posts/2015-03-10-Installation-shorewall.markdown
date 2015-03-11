@@ -4,7 +4,7 @@ title:      "Shorewall sous debian"
 subtitle:   "Installation et configuration des règles de shorewall sous debian"
 date:       2015-03-10 9:00:00
 author:     "Arnaud LAHAXE"
-header-img: "/assets/img/header/54.jpg"
+header-img: "/assets/img/header/network.jpg"
 tags: [debian]
 ---
 

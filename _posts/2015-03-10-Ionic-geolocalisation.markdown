@@ -4,7 +4,7 @@ title:      "Ionic geolocalisation"
 subtitle:   "Utiliser la géolocalisation dans une application ionic"
 date:       2015-03-10 18:00:00
 author:     "Arnaud LAHAXE"
-header-img: "/assets/img/header/60.jpg"
+header-img: "/assets/img/header/compass.jpg"
 tags:       [ionic, protip]
 ---
 
