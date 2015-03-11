@@ -60,7 +60,7 @@ app.constant('defaultLocalisation', {
 
 ### Le localStorage
 
-Afin de diminuer le nombre d'accès au GPS nous allons nous faire une factory qui va travailler avce le localstorage. Ce composant est ré-utilisable pour stocker d'autres données.
+Afin de diminuer le nombre d'accès au GPS nous allons nous faire une factory qui va travailler avec le localstorage. Ce composant est ré-utilisable pour stocker d'autres données.
 
 
 {% highlight javascript %}
@@ -84,7 +84,7 @@ app.factory('$localStorage', ['$window', function ($window) {
 
 ### La factory qui va contenir la géolocalisation
 
-Cette factory va interagir avec le localStorage en enregistrant et en récupérant le position GPS.
+Cette factory va intéragir avec le localStorage en enregistrant et en récupérant la position GPS.
 
 {% highlight javascript %}
 app.factory('geoLocation', function ($localStorage) {
@@ -107,6 +107,9 @@ app.factory('geoLocation', function ($localStorage) {
 {% endhighlight %}
 
 ### Initialisation au run
+
+A l'initisalisation de notre module on va lancer la détection de de la position GPS, on va aussi mettre un place un watcher sur cette variable. Quand on va detecter une moification de la géolocalisation on va créer un évènement dans le `$rootscope`. Les autres `objets` pourront s'abonner à cet évènement.
+
 
 L'intéraction avec les plugins cordova doivent forcement se faire dans un `$ionicPlatform.ready`.
 
@@ -149,6 +152,10 @@ app.run(function ($ionicPlatform, $cordovaGeolocation, geoLocation, $rootScope, 
 {% endhighlight %}
 
 ## Utilisation
+
+Le fait d'avoir wrappé toute la logique dans des factories nous permet d'utiliser la geolocalisation en toute simplicité.
+
+Dans cet exemple le controller écoute l'évènement `location:change`.
 
 {% highlight javascript %}
 app.controller('myController', function ($scope, geoLocation, $rootScope) {
