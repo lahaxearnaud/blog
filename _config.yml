@@ -13,5 +13,5 @@ excerpt_separator: ""
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 7
+paginate: 12
 exclude: ["assets/less","node_modules","Gruntfile.js","package.json","README.md", "CNAME", "bower.json"]
