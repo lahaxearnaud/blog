@@ -6,3 +6,7 @@
   name: Ionic
 - slug: protip
   name: Protip
+- slug: raspberry
+  name: Raspberry
+- slug: dht11
+  name: DHT11
