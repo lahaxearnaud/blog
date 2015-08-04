@@ -13,12 +13,12 @@ tags: [Raspberry, DHT11]
 ## Matériel
 
 ## Installation
-	### Branchements
-	### Installation driver
-	### Installation Redis
-	### Installation python et dépendances
-	### Installation supervisord
+### Branchements
+### Installation driver
+### Installation Redis
+### Installation python et dépendances
+### Installation supervisord
 
 ## Utilisation
-	### Exemple de code d'utilisation
-	### Mise en place de la tache supervisord
+### Exemple de code d'utilisation
+### Mise en place de la tache supervisord
